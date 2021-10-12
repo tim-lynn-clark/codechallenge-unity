@@ -1,6 +1,8 @@
 # Code Challenge: Unity
 __Cross-platform Mobile Game Development Skills Assessment__
 
+Repo Location: https://github.com/tim-lynn-clark/codechallenge-unity
+
 ## Summary
 This Unity code challenge provides each candidate a `consistent` and `fair` opportunity to demonstrate the skills they have developed and practiced over their years of software engineering.
 
