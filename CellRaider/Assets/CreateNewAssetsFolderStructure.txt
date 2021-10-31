@@ -1,0 +1,1 @@
+Initial check-in of creating Assets folder structure.
