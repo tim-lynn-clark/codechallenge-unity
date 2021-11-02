@@ -11,34 +11,9 @@
         /// </summary>
         public static BlueNoteGameController Instance { get; private set; }
 
-        /// <summary>
-        /// Gets or sets the plaformer model.
-        /// </summary>
-        public PlatformerModel Model
-        {
-            get { return model; }
-            set { model = value; }
-        }
-
         /// <summary>The platformer model.</summary>
         [SerializeField]
-        private PlatformerModel model;
-
-        /// <summary>
-        /// The Unity awake.
-        /// </summary>
-        private void Awake()
-        {
-            // Initialize a instance of the Platformer model.
-            if (Model == null)
-            {
-                Model = Simulation.GetModel<PlatformerModel>();
-            }
-            else
-            {
-                Simulation.SetModel<PlatformerModel>(model);
-            }
-        }
+        private PlatformerModel Model = Simulation.GetModel<PlatformerModel>();
 
         /// <summary>
         /// The Unity On Enable.

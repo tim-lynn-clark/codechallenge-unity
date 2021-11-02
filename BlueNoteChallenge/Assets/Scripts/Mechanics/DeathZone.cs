@@ -11,6 +11,12 @@
     public class DeathZone : MonoBehaviour
     {
         /// <summary>
+        /// The zone id.
+        /// </summary>
+        [SerializeField]
+        private int zoneId;
+
+        /// <summary>
         /// The Unity OnTriggerEnter2D
         /// </summary>
         /// <param name="collider">The other collider.</param>
