@@ -38,19 +38,19 @@ _Where the fun really beings_
 - [ ] Development environment setup instructions
 
 ### Features
-- [ ] Player has a score that begins at 0
-- [ ] Player runs on ground
-- [ ] Player can jump
-- [ ] Player can double-jump
-- [ ] Cancer cells move on ground from right to left
+- [X] Player has a score that begins at 0
+- [X] Player runs on ground
+- [X] Player can jump
+- [X] Player can double-jump
+- [X] Cancer cells move on ground from right to left
 - [ ] Cancer cells can also move in the air from right to left
-- [ ] When player lands on a cancer cell, the cell is destroyed and the score increases
-- [ ] When player runs into a cancer cell, the player loses some of their score
+- [X] When player lands on a cancer cell, the cell is destroyed and the score increases
+- [X] When player runs into a cancer cell, the player loses some of their score
 - [ ] Ground continuously moves from right to left
-- [ ] Player can move right or left based on user input (you choose what the input will be)
-- [ ] Player should not be able to move off screen
-- [ ] Player actions should be animated (jumping, running, etc.)
-- [ ] Cancer cells should be animated (movement, pulsing, etc.)
+- [X] Player can move right or left based on user input (you choose what the input will be)
+- [X] Player should not be able to move off screen
+- [X] Player actions should be animated (jumping, running, etc.)
+- [X] Cancer cells should be animated (movement, pulsing, etc.)
 - [ ] Different types of cancer move at different rates
 - [ ] Different types of cancer are worth different score amounts
 - [ ] Different types of cancer have different looks and animations
